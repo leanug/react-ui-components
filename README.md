@@ -1,6 +1,6 @@
 # UI React Components
 
-![Home Image](https://github.com/leanug/v1/blob/main/src/static/screenshot.jpg)
+![Home Image](https://github.com/leanug/react-ui-components/blob/main/static/screenshot.jpg)
 
 Gatsby + Styled Components
 
