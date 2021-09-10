@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import links from '../constants/links'
 
-const Sidebar = ({ isSidebarOpen, toggleSidebar, toggleTheme }) => (
+const Sidebar = ({ isSidebarOpen, toggleSidebar }) => (
     <Wrapper 
         className={`${ 
           isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar' 

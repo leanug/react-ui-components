@@ -2,9 +2,8 @@ import React from 'react'
 import Card from './Card'
 import data from '../../constants/services'
 import styled from 'styled-components'
-import PropTypes from 'prop-types'
 
-const CardDeck = ({ styleClass }) => {
+const CardDeck = () => {
     return (
         <Wrapper>
             { data.map(( single, index ) => {
@@ -12,7 +11,6 @@ const CardDeck = ({ styleClass }) => {
                     <Card
                         key={ index } 
                         data={ single }
-                        styleClass={ styleClass } 
                     />
                 )
             })}
@@ -29,13 +27,5 @@ const Wrapper = styled.div`
         grid-template-columns: repeat(3, 1fr);
     }
 `
-
-CardDeck.defaultProps = {
-    styleClass: 'style-1',
-}
-
-CardDeck.propTypes = {
-    styleClass: PropTypes.string,
-}
 
 export default CardDeck;

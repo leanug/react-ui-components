@@ -1,7 +1,6 @@
 import React from 'react';
 import accordionItems from '../../constants/accordion'
 import Item from './Item'
-import PropTypes from 'prop-types'
 
 const Accordion = () => {
     return (
@@ -19,13 +18,5 @@ const Accordion = () => {
         </> 
     );
 };
-
-Accordion.defaultProps = {
-    data: []
-}
-
-Accordion.propTypes = {
-    data: PropTypes.array.isRequired,
-}
 
 export default Accordion;

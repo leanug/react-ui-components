@@ -4,6 +4,8 @@
 
 Gatsby + Styled Components
 
+More components coming soon.
+
 ## Install:
 
 	npm install

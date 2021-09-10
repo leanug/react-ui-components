@@ -1,9 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const Card = ({ data, styleClass }) => (
-    <Wrapper className={ styleClass }>
+const Card = ({ data }) => (
+    <Wrapper>
         <div className="icon">
             { data.icon }
         </div>
@@ -65,10 +64,5 @@ const Wrapper = styled.div`
         }
     }
 `
-
-Card.propTypes = {
-    data: PropTypes.object.isRequired,
-    styleClass: PropTypes.string,
-}
 
 export default Card;

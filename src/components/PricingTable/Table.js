@@ -1,7 +1,6 @@
 import React from 'react'
 import { BiCheckCircle } from 'react-icons/bi'
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const Table = ({ data }) => {
@@ -95,9 +94,5 @@ const Wrapper = styled.div`
     }
   }
 `
-
-Table.propTypes = {
-  data: PropTypes.object.isRequired,
-}
 
 export default Table
